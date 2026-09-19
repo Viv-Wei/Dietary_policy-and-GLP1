@@ -1,5 +1,3 @@
-
-
 import pandas as pd
 
 inc = pd.read_csv("params/income_quintiles_wb.csv")
