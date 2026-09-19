@@ -1,5 +1,3 @@
-
-
 import pandas as pd, numpy as np, argparse
 
 def load_trial(path):
