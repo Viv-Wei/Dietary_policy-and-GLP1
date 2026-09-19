@@ -1,7 +1,5 @@
-
-
 import os, json, argparse, pandas as pd
-os.chdir("/data2/han_tianshu/glp1_diet_cra")
+os.chdir("./glp1_diet_cra")
 
 afford = dict(pd.read_csv("params/coverage_afford_cap.csv").values)
 _ow = pd.read_csv('params/overweight_prevalence.csv')
