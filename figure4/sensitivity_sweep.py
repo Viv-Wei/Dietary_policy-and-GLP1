@@ -1,5 +1,3 @@
-
-
 import subprocess, os, itertools, pandas as pd, io
 
 GRID = {
