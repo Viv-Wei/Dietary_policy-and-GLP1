@@ -1,7 +1,7 @@
 import os
 import pandas as pd, numpy as np
 from importlib.machinery import SourceFileLoader
-os.chdir("/data2/han_tianshu/glp1_diet_cra")
+os.chdir("./glp1_diet_cra")
 dpa = SourceFileLoader("dpa","src/diet_policy_arm.py").load_module()
 
 RNG = np.random.default_rng(99)
